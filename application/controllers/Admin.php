@@ -25,7 +25,8 @@ class Admin extends CI_Controller
 
         $this->load->view('templates/navbar');
         $this->load->view('templates/header');
-        $this->load->view('admin/index');
+        // $this->load->view('admin/index');
+        $this->load->view('absensihariini/absenhariini');
         $this->load->view('templates/footer');
     }
 }
