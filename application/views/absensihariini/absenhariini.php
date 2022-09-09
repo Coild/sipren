@@ -102,17 +102,13 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="ibox ">
-                <div class="ibox-title">
-                    <h5>List</h5>
-                    <div class="ibox-tools">
-                        <a class="collapse-link">
-                            <i class="fa fa-chevron-up"></i>
-                        </a>
-                    </div>
+                <div class="ibox-title text-center">
+                    <h3>Daftar Hadir Dosen</h3>
+
                 </div>
                 <div class="ibox-content">
 
-                    <div class="table-responsive">
+                    <!-- <div class="table-responsive">
                         <table class="table table-striped table-bordered table-hover dataTables-example">
                             <thead>
                                 <tr>
@@ -124,7 +120,43 @@
                                     <th>Keluar</th>
                                 </tr>
                             </thead>
-                            <!-- <tbody>
+                            <tbody>
+                                <tr>
+                                    <td>Trident</td>
+                                    <td>Internet
+                                        Explorer 4.0
+                                    </td>
+                                    <td>Win 95+</td>
+                                    <td class="center">4</td>
+                                    <td class="center">X</td>
+                                    <td class="center">X</td>
+                                </tr>
+
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th>No</th>
+                                    <th>NIP</th>
+                                    <th>Nama</th>
+                                    <th>Status</th>
+                                    <th>Masuk</th>
+                                    <th>Keluar</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div> -->
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered table-hover dataTables-example">
+                            <thead>
+                                <tr>
+                                    <th>Rendering engine</th>
+                                    <th>Browser</th>
+                                    <th>Platform(s)</th>
+                                    <th>Engine version</th>
+                                    <th>CSS grade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
                                 <tr class="gradeX">
                                     <td>Trident</td>
                                     <td>Internet
@@ -133,7 +165,6 @@
                                     <td>Win 95+</td>
                                     <td class="center">4</td>
                                     <td class="center">X</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeC">
                                     <td>Trident</td>
@@ -143,7 +174,6 @@
                                     <td>Win 95+</td>
                                     <td class="center">5</td>
                                     <td class="center">C</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Trident</td>
@@ -153,7 +183,6 @@
                                     <td>Win 95+</td>
                                     <td class="center">5.5</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Trident</td>
@@ -163,7 +192,6 @@
                                     <td>Win 98+</td>
                                     <td class="center">6</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Trident</td>
@@ -171,7 +199,6 @@
                                     <td>Win XP SP2+</td>
                                     <td class="center">7</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Trident</td>
@@ -179,7 +206,6 @@
                                     <td>Win XP</td>
                                     <td class="center">6</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -187,7 +213,6 @@
                                     <td>Win 98+ / OSX.2+</td>
                                     <td class="center">1.7</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -195,7 +220,6 @@
                                     <td>Win 98+ / OSX.2+</td>
                                     <td class="center">1.8</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -203,7 +227,6 @@
                                     <td>Win 98+ / OSX.2+</td>
                                     <td class="center">1.8</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -211,7 +234,6 @@
                                     <td>Win 2k+ / OSX.3+</td>
                                     <td class="center">1.9</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -219,7 +241,6 @@
                                     <td>OSX.2+</td>
                                     <td class="center">1.8</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -227,7 +248,6 @@
                                     <td>OSX.3+</td>
                                     <td class="center">1.8</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -235,7 +255,6 @@
                                     <td>Win 95+ / Mac OS 8.6-9.2</td>
                                     <td class="center">1.7</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -243,7 +262,6 @@
                                     <td>Win 98SE+</td>
                                     <td class="center">1.7</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -251,7 +269,6 @@
                                     <td>Win 98+ / OSX.2+</td>
                                     <td class="center">1.8</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -259,7 +276,6 @@
                                     <td>Win 95+ / OSX.1+</td>
                                     <td class="center">1</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -267,7 +283,6 @@
                                     <td>Win 95+ / OSX.1+</td>
                                     <td class="center">1.1</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -275,7 +290,6 @@
                                     <td>Win 95+ / OSX.1+</td>
                                     <td class="center">1.2</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -283,7 +297,6 @@
                                     <td>Win 95+ / OSX.1+</td>
                                     <td class="center">1.3</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -291,7 +304,6 @@
                                     <td>Win 95+ / OSX.1+</td>
                                     <td class="center">1.4</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -299,7 +311,6 @@
                                     <td>Win 95+ / OSX.1+</td>
                                     <td class="center">1.5</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -307,7 +318,6 @@
                                     <td>Win 95+ / OSX.1+</td>
                                     <td class="center">1.6</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -315,7 +325,6 @@
                                     <td>Win 98+ / OSX.1+</td>
                                     <td class="center">1.7</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -323,7 +332,6 @@
                                     <td>Win 98+ / OSX.1+</td>
                                     <td class="center">1.8</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -331,7 +339,6 @@
                                     <td>Win 98+ / OSX.2+</td>
                                     <td class="center">1.8</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Gecko</td>
@@ -339,7 +346,6 @@
                                     <td>Gnome</td>
                                     <td class="center">1.8</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Webkit</td>
@@ -347,7 +353,6 @@
                                     <td>OSX.3</td>
                                     <td class="center">125.5</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Webkit</td>
@@ -355,7 +360,6 @@
                                     <td>OSX.3</td>
                                     <td class="center">312.8</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Webkit</td>
@@ -363,7 +367,6 @@
                                     <td>OSX.4+</td>
                                     <td class="center">419.3</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Webkit</td>
@@ -371,7 +374,6 @@
                                     <td>OSX.4+</td>
                                     <td class="center">522.1</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Webkit</td>
@@ -379,7 +381,6 @@
                                     <td>OSX.4+</td>
                                     <td class="center">420</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Webkit</td>
@@ -387,7 +388,6 @@
                                     <td>iPod</td>
                                     <td class="center">420.1</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Webkit</td>
@@ -395,7 +395,6 @@
                                     <td>S60</td>
                                     <td class="center">413</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Presto</td>
@@ -403,7 +402,6 @@
                                     <td>Win 95+ / OSX.1+</td>
                                     <td class="center">-</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Presto</td>
@@ -411,7 +409,6 @@
                                     <td>Win 95+ / OSX.2+</td>
                                     <td class="center">-</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Presto</td>
@@ -419,7 +416,6 @@
                                     <td>Win 95+ / OSX.2+</td>
                                     <td class="center">-</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Presto</td>
@@ -427,7 +423,6 @@
                                     <td>Win 95+ / OSX.2+</td>
                                     <td class="center">-</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Presto</td>
@@ -435,7 +430,6 @@
                                     <td>Win 95+ / OSX.3+</td>
                                     <td class="center">-</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Presto</td>
@@ -443,7 +437,6 @@
                                     <td>Win 88+ / OSX.3+</td>
                                     <td class="center">-</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Presto</td>
@@ -451,7 +444,6 @@
                                     <td>Win 88+ / OSX.3+</td>
                                     <td class="center">-</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Presto</td>
@@ -459,7 +451,6 @@
                                     <td>Wii</td>
                                     <td class="center">-</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Presto</td>
@@ -467,7 +458,6 @@
                                     <td>N800</td>
                                     <td class="center">-</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Presto</td>
@@ -475,7 +465,6 @@
                                     <td>Nintendo DS</td>
                                     <td class="center">8.5</td>
                                     <td class="center">C/A<sup>1</sup></td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeC">
                                     <td>KHTML</td>
@@ -483,7 +472,6 @@
                                     <td>KDE 3.1</td>
                                     <td class="center">3.1</td>
                                     <td class="center">C</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>KHTML</td>
@@ -491,7 +479,6 @@
                                     <td>KDE 3.3</td>
                                     <td class="center">3.3</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>KHTML</td>
@@ -499,7 +486,6 @@
                                     <td>KDE 3.5</td>
                                     <td class="center">3.5</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeX">
                                     <td>Tasman</td>
@@ -507,7 +493,6 @@
                                     <td>Mac OS 8-9</td>
                                     <td class="center">-</td>
                                     <td class="center">X</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeC">
                                     <td>Tasman</td>
@@ -515,7 +500,6 @@
                                     <td>Mac OS 7.6-9</td>
                                     <td class="center">1</td>
                                     <td class="center">C</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeC">
                                     <td>Tasman</td>
@@ -523,7 +507,6 @@
                                     <td>Mac OS 8-X</td>
                                     <td class="center">1</td>
                                     <td class="center">C</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Misc</td>
@@ -531,7 +514,6 @@
                                     <td>Embedded devices</td>
                                     <td class="center">-</td>
                                     <td class="center">C</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeA">
                                     <td>Misc</td>
@@ -539,7 +521,6 @@
                                     <td>Embedded devices</td>
                                     <td class="center">-</td>
                                     <td class="center">A</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeX">
                                     <td>Misc</td>
@@ -547,7 +528,6 @@
                                     <td>Embedded devices</td>
                                     <td class="center">-</td>
                                     <td class="center">X</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeX">
                                     <td>Misc</td>
@@ -555,7 +535,6 @@
                                     <td>Text only</td>
                                     <td class="center">-</td>
                                     <td class="center">X</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeX">
                                     <td>Misc</td>
@@ -563,7 +542,6 @@
                                     <td>Text only</td>
                                     <td class="center">-</td>
                                     <td class="center">X</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeC">
                                     <td>Misc</td>
@@ -571,7 +549,6 @@
                                     <td>Windows Mobile 6</td>
                                     <td class="center">-</td>
                                     <td class="center">C</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeC">
                                     <td>Misc</td>
@@ -579,7 +556,6 @@
                                     <td>PSP</td>
                                     <td class="center">-</td>
                                     <td class="center">C</td>
-                                    <td>kosong</td>
                                 </tr>
                                 <tr class="gradeU">
                                     <td>Other browsers</td>
@@ -587,9 +563,8 @@
                                     <td>-</td>
                                     <td class="center">-</td>
                                     <td class="center">U</td>
-                                    <td>kosong</td>
                                 </tr>
-                            </tbody> -->
+                            </tbody>
                             <tfoot>
                                 <tr>
                                     <th>Rendering engine</th>
@@ -597,12 +572,32 @@
                                     <th>Platform(s)</th>
                                     <th>Engine version</th>
                                     <th>CSS grade</th>
-                                    <td>kosong</td>
                                 </tr>
                             </tfoot>
                         </table>
                     </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table id="data" class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>No</th>
+                                        <th>Nama</th>
+                                        <th>Tanggal</th>
+                                        <th>Keterangan</th>
+                                        <th>Kategori</th>
+                                        <th>Tempat</th>
+                                        <?php if ($this->session->userdata('edit') == 'on') { ?>
+                                            <th>Opsi</th>
+                                        <?php } ?>
+                                    </tr>
+                                </thead>
+                                <tbody>
 
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
