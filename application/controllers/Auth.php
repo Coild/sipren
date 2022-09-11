@@ -27,12 +27,13 @@ class Auth extends CI_Controller
 
 		$this->load->model('M_auth');
 
-		$sql = $this->M_auth->admin($username, $password);
+		// $sql = $this->M_auth->admin($username, $password);
 
-		$admin = $sql->num_rows();
-		$row     = $sql->row();
+		// $admin = $sql->num_rows();
+		// $row     = $sql->row();
 
 		if (1 == 1) {
+			echo var_dump('hello');
 			$array = array(
 				'id_admin' => 'Admin',
 				'username' => 'Admin'
