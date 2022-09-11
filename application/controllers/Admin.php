@@ -70,8 +70,8 @@ class Admin extends CI_Controller
 
         $this->load->view('templates/navbar');
         $this->load->view('templates/header');
-        // $this->load->view('admin/index');
-        $this->load->view('pegawai/data');
+        $this->load->view('admin/index');
+        // $this->load->view('pegawai/data');
         $this->load->view('templates/footer');
     }
 
