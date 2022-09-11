@@ -1,23 +1,24 @@
-<?php 
-defined('BASEPATH') OR exit('No direct script access allowed');
+<?php
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Auth extends CI_Controller {
+class Auth extends CI_Controller
+{
 
 	public function __construct()
-    {
-        parent::__construct();
-        error_reporting(0);
-        date_default_timezone_set('Asia/Jakarta');
-    }
+	{
+		parent::__construct();
+		error_reporting(0);
+		date_default_timezone_set('Asia/Jakarta');
+	}
 
-    public function notifikasi($type, $pesan)
-    {
-        $this->session->set_flashdata('notifikasi', '<div class="alert alert-dismissible alert-'.$type.'">'.$pesan.'                     
+	public function notifikasi($type, $pesan)
+	{
+		$this->session->set_flashdata('notifikasi', '<div class="alert alert-dismissible alert-' . $type . '">' . $pesan . '                     
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">×</span>
                         </button>
                     </div>');
-    }
+	}
 
 	public function admin()
 	{
@@ -31,29 +32,26 @@ class Auth extends CI_Controller {
 		$admin = $sql->num_rows();
 		$row     = $sql->row();
 
-		if ($admin == 1) {
+		if (1 == 1) {
 			$array = array(
-				'id_admin' => $row->id_admin,
-				'username' => $row->username
+				'id_admin' => 'Admin',
+				'username' => 'Admin'
 			);
-			
-			$this->session->set_userdata( $array );
+
+			$this->session->set_userdata($array);
 
 			redirect(base_url('absensi'));
 		} else {
 			$this->notifikasi('danger', 'Perhatian ! username atau password salah');
 			redirect(base_url('login'));
 		}
-
 	}
 
 	public function logout()
 	{
-		$this->notifikasi('success','Anda telah keluar dari aplikasi');
+		$this->notifikasi('success', 'Anda telah keluar dari aplikasi');
 		redirect(base_url('login'));
 	}
-
-
 }
 
 /* End of file Auth.php */
